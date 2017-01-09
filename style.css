@@ -1,0 +1,174 @@
+
+}/*media query end*/
+/*********************************/
+/* COLORS
+header { background-color: #464655 } dark purpl
+footer { background-color: #464655 } dark purpl
+article { background-color: #EEE4E1 } light pink
+aside { background-color: #EEE4E1 }
+nav { background-color: #EEE4E1 }
+*/
+/* pink: #ff6666 */
+
+/*** MOBILE VIEW ***************/
+.importantColor  {
+  color: #d32a51;
+  /*background-color: #fffdba;*/
+  font-size: 1.25em;
+  font-weight: 800;
+}
+.important{
+  /*color: #121ecc;*/
+  background-color: #fffdba;
+  font-size: 1.25em;
+  font-weight: 800;
+}
+header {
+  border-bottom: 2px solid #6496c8;
+}
+footer {
+  border-top: 2px solid #6496c8;
+}
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 500;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 20px;
+  color: #4f4241;
+}
+h2, h3 {
+  text-align: center;
+}
+a {
+  color: #427bb9;
+}
+a:hover{
+  color:#2f538c;
+}
+body {
+  /*background-color: #EEE4E1;*/
+  font-weight: 400;
+  line-height: 1.4em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 1.2em;
+}
+#container {
+  font-family: "Raleway";
+  color: #464655;
+  flex: 1;
+}
+header, footer {
+  min-height: 100px;
+  padding: 0;
+  line-height: 0;
+}
+aside, nav {
+  display: none;
+}
+#btn {
+  text-align: center;
+}
+article {
+  padding: 3%;
+}
+/***********BUTTON STLES***********/
+#buttons {
+  text-align: center;
+}
+button {
+  margin: 2% 5% 5% 5%;
+  width: 200px;
+  font-size: .8em;
+  padding: 1%;
+}
+button:focus {outline:0;}
+.press {
+	color: #fff;
+  background-color: #6496c8;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 10px #27496d;
+
+}
+.notSelected:hover {
+	background-color: #417cb8;
+  cursor: pointer;
+}
+.notSelected:active {
+  background-color: #27496d;
+	box-shadow: 0 5px #27496d;
+	transform: translateY(5px);
+  border : 0;
+}
+.selected {
+  background-color: #27496d;
+  transform: translateY(5px);
+}
+img {
+  width: 300px;
+}
+#image {
+  text-align: center;
+}
+.code {
+  color: white;
+  background-color: #3d3d3d;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.codeImportantY {
+  color: #fffd99;
+}
+.codeImportantP {
+  color: #ffc6e4;
+}
+.codeImportantG {
+  color: #9aff91;
+}
+.codeImportantB {
+  color: #91eaff;
+}
+/*********************************/
+
+/******* DESK TOP VIEW *************/
+@media all and (min-width: 600px) {
+  body {
+    font-size: 1em;
+  }
+  #container {
+    display: flex;
+    flex-direction: row;
+  }
+  article {
+    flex: 10;
+  }
+  nav, aside {
+    display: inline-flex;
+    background-color: #dcdfe5;
+    flex: 2;
+  }
+  aside {
+    order: -1;
+  }
+  button {
+    width: 150px;
+    font-size: .9em;
+  }
+  #btnShow, #btnHide {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  img {
+    width: 600px;
+  }
+
+}
+
+
+
+
+/*********************************/

@@ -1,2 +1,2 @@
 # blog-template
-A template for a blog 
+a template for blogs
