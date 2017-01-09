@@ -24,10 +24,10 @@ nav { background-color: #EEE4E1 }
   font-weight: 800;
 }
 header {
-  border-bottom: 2px solid #6496c8;
+  border-bottom: 5px solid #ffa8a8;
 }
 footer {
-  border-top: 2px solid #6496c8;
+  border-top: 5px solid #ffa8a8;
 }
 h1 {
   font-family: 'Fredericka the Great', cursive;
@@ -39,6 +39,12 @@ h1 {
 }
 h2, h3 {
   text-align: center;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.3em;
 }
 a {
   color: #427bb9;
@@ -107,6 +113,7 @@ button:focus {outline:0;}
   background-color: #27496d;
   transform: translateY(5px);
 }
+/**********************************/
 img {
   width: 300px;
 }
