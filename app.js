@@ -18,3 +18,15 @@ $("#hide").click(function() {
   $("#show").addClass("notSelected");
   $("#show").removeClass("selected");
 });
+
+$("#showCode").click(function() {
+    $(this).hide();
+    $("#hideCode").show();
+    $("code").show();
+});
+$("#hideCode").click(function() {
+    $(this).hide();
+    $("#showCode").show();
+    $("code").hide();
+
+});
